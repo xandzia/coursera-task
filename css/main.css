@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #7052B2;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+
+.navbar-default {
+    background-color: #FFC68D;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav .container-fluid {
+    padding-left: 5%;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #6FCC7B;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #7052B2;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#collapsable-nav ul {
+    margin-bottom: 0;
+}
+
+#nav-list a {
+    text-align: center;
+    color: #7052B2;
+    font-weight: bold;
+}
+
+#nav-list a:hover {
+    color: #fff;
+}
+
+#nav-list hr {
+    margin: 0 auto;
+    width: 97%;
+}
+
+#nav-list .last {
+    width: 100%;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #7052B2;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -39px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+
+
+/** MAIN **/
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+#main h3 {
+    color: #6FCC7B;
+}
+
+#main p {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify
+}
+
+#main section {
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.21);
+}
+
+
+/** FOOTER **/
+
+#foodFooter {
+    height: 30px;
+    background-color: #FFC68D;
+}
+
+#foodFooter>div {
+    padding-top: 3px;
+    color: #7052b2;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+
+/*
+Extra small devices===========*/
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        margin-left: 10px;
+    }
+    .navbar-brand h1 {
+        padding-top: 3px;
+        font-size: 1.6;
+    }
+    .navbar-brand p {
+        font-size: .6em;
+    }
+    #collapsable-nav a {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .container-fluid {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
